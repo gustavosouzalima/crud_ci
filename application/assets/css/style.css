@@ -1,0 +1,83 @@
+body {
+    background-color: #ccc;
+    font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+	margin: 0px; padding: 10px;
+}
+a{
+	color: #000;
+	margin: 10px;
+}
+.container {
+    background-color: #fff;
+    width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+ 
+/** Tables **/
+table {
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin: 40px 0 80px 10px;
+	width: 95%;
+}
+th {
+	border:0;
+	border-bottom:2px solid #555;
+	text-align: left;
+	padding:4px;
+}
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a.asc:after {
+	content: ' ?';
+}
+th a.desc:after {
+	content: ' ?';
+}
+table tr td {
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid #ddd;
+}
+table tr:nth-child(even) {
+	background: #f9f9f9;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+	width: 100px
+}
+table td.actions a {
+	margin: 0px 6px;
+	padding:2px 5px;
+}
+/** Forms **/
+ 
+form fieldset {
+    width: 500px; border: none; padding-top: 25px;
+}
+form legend {
+	font-size: 16px;
+}
+form label {
+    width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+}
+form input[type=text] {
+    padding: 4px; border: #ccc solid 2px; width: 100%;
+}
+form input[type=submit] {
+    margin: 20px 0 15px 0;
+}
+
+#buscar {
+	margin: 0px 0px 10px 10px;
+}
